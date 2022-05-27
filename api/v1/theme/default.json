@@ -1,0 +1,236 @@
+{
+  "color": {
+    "primary": "#5a3deb",
+    "secondary": "#16d354",
+    "text": "#424242"
+  },
+  "typography": {
+    "lineHeight": {
+      "heading-1": "120%",
+      "heading-2": "120%",
+      "heading-3": "150%",
+      "heading-4": "150%",
+      "heading-paragraph": "150%"
+    },
+    "fontSize": {
+      "heading-1.responsive": {
+        "default": "51px",
+        "mobile": "44px"
+      },
+      "heading-2.responsive": {
+        "default": "38px",
+        "mobile": "33px"
+      },
+      "heading-3.responsive": {
+        "default": "28px",
+        "mobile": "25px"
+      },
+      "heading-4.responsive": {
+        "default": "21px",
+        "mobile": "19px"
+      },
+      "paragraph.responsive": {
+        "default": "16px",
+        "mobile": "14px"
+      },
+      "small.responsive": {
+        "default": "14px",
+        "mobile": "12px"
+      }
+    },
+    "font": {
+      "primary": "Poppins",
+      "secondary": "Poppins"
+    },
+    "button": {
+      "small.responsive": {
+        "default": "16px",
+        "mobile": "14px"
+      },
+      "medium.responsive": {
+        "default": "21px",
+        "mobile": "19px"
+      },
+      "large.responsive": {
+        "default": "28px",
+        "mobile": "24px"
+      }
+    },
+    "input": {
+      "small.responsive": {
+        "default": "16px",
+        "mobile": "14px"
+      },
+      "medium.responsive": {
+        "default": "21px",
+        "mobile": "19px"
+      },
+      "large.responsive": {
+        "default": "28px",
+        "mobile": "24px"
+      }
+    }
+  },
+  "borderRadius": {
+    "small.responsive": {
+      "default": "4px",
+      "mobile": "4px"
+    },
+    "medium.responsive": {
+      "default": "8px",
+      "mobile": "8px"
+    },
+    "large.responsive": {
+      "default": "16px",
+      "mobile": "16px"
+    }
+  },
+  "button": {
+    "spacing": {
+      "x": {
+        "small.responsive": {
+          "default": "16px",
+          "mobile": "14px"
+        },
+        "medium.responsive": {
+          "default": "21px",
+          "mobile": "19px"
+        },
+        "large.responsive": {
+          "default": "28px",
+          "mobile": "24px"
+        }
+      },
+      "y": {
+        "small.responsive": {
+          "default": "12px",
+          "mobile": "10.5px"
+        },
+        "medium.responsive": {
+          "default": "14.5px",
+          "mobile": "13px"
+        },
+        "large.responsive": {
+          "default": "18px",
+          "mobile": "15.5px"
+        }
+      }
+    },
+    "primary": {
+      "boxShadow": "0px 4px 8px rgba(35, 82, 231, 0.2)",
+      "boxShadowHover": "0px 4px 8px rgba(35, 82, 231, 0.2)",
+      "color": "#FFFFFF",
+      "color_hover": "#FFFFFF",
+      "bg": {
+        "color": {
+          "default": "#5a3deb",
+          "hover": "#16d354"
+        }
+      },
+      "border": {
+        "width": "1px",
+        "style": "solid",
+        "color": {
+          "default": "#5a3deb",
+          "hover": "#16d354"
+        }
+      }
+    },
+    "secondary": {
+      "boxShadow": "0px 4px 8px rgba(35, 82, 231, 0.2)",
+      "boxShadowHover": "0px 4px 8px rgba(35, 82, 231, 0.2)",
+      "color": "#5a3deb",
+      "color_hover": "#16d354",
+      "bg": {
+        "color": {
+          "default": "transparent",
+          "hover": "transparent"
+        }
+      },
+      "border": {
+        "width": "1px",
+        "style": "solid",
+        "color": {
+          "default": "#5a3deb",
+          "hover": "#16d354"
+        }
+      }
+    },
+    "disabled": {
+      "boxShadow": "0px 4px 8px rgba(35, 82, 231, 0.2)",
+      "boxShadowHover": "0px 4px 8px rgba(35, 82, 231, 0.2)",
+      "color": "#FFFFFF",
+      "color_hover": "#FFFFFF",
+      "bg": {
+        "color": {
+          "default": "#B4B4B4",
+          "hover": "#B4B4B4"
+        }
+      },
+      "border": {
+        "width": "1px",
+        "style": "solid",
+        "color": {
+          "default": "#B4B4B4",
+          "hover": "#B4B4B4"
+        }
+      }
+    }
+  },
+  "formField": {
+    "spacing": {
+      "x": {
+        "small.responsive": {
+          "default": "16px",
+          "mobile": "14px"
+        },
+        "medium.responsive": {
+          "default": "21px",
+          "mobile": "19px"
+        },
+        "large.responsive": {
+          "default": "28px",
+          "mobile": "24px"
+        }
+      },
+      "y": {
+        "small.responsive": {
+          "default": "12px",
+          "mobile": "10.5px"
+        },
+        "medium.responsive": {
+          "default": "14.5px",
+          "mobile": "13px"
+        },
+        "large.responsive": {
+          "default": "18px",
+          "mobile": "15.5px"
+        }
+      }
+    },
+    "color": "#ffffff",
+    "color_hover": "#ffffff",
+    "placeholder_color": "#c1c5c7",
+    "bg": {
+      "color": {
+        "default": "#53b644",
+        "hover": "#61c652"
+      }
+    },
+    "border": {
+      "width": "0px",
+      "color": {
+        "default": "#53b644",
+        "hover": "#53b644",
+        "focus": "#53b644"
+      }
+    }
+  },
+  "spacing": {
+    "extra_small": "0.5rem",
+    "small": "1rem",
+    "medium": "2rem",
+    "large": "3.5rem",
+    "extra_large": "4.5rem"
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "uid": "ROOT",
+  "tag": "Root",
+  "childrens": [
+    {
+      "uid": "et2eli9",
+      "tag": "Row",
+      "label": "Row",
+      "settings": {
+        "responsive": {
+          "desktop": "repeat(1, minmax(0, 1fr))"
+        }
+      },
+      "childrens": [
+        {
+          "uid": "byt8r2z",
+          "tag": "Col",
+          "label": "Col",
+          "settings": {},
+          "childrens": [
+            {
+              "uid": "8lttw1p",
+              "tag": "Row",
+              "label": "Row",
+              "settings": {
+                "responsive": {
+                  "desktop": "minmax(0, 8fr) minmax(0, 4fr)",
+                  "tablet": "repeat(1, minmax(0, 1fr))"
+                },
+                "fullWidth": true,
+                "horizontalGutter": {
+                  "desktop": "16px"
+                },
+                "verticalGutter": {
+                  "desktop": "16px"
+                }
+              },
+              "childrens": [
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "uid": "feiaznm",
+                      "tag": "Heading",
+                      "label": "Heading",
+                      "settings": {
+                        "text": "COLLECTION DETAIL.",
+                        "level": 1,
+                        "typographyType": "heading",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "fontWeight": {
+                          "desktop": "normal"
+                        },
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "editorConfigs": {
+                        "sideBar": {
+                          "group": "base"
+                        }
+                      }
+                    },
+                    {
+                      "uid": "6nko25m",
+                      "tag": "Text",
+                      "label": "Text",
+                      "settings": {
+                        "text": "In deserunt eu consequat reprehenderit minim cillum.",
+                        "htmlTag": "p",
+                        "typographyType": "heading",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "fontWeight": {
+                          "desktop": "normal"
+                        },
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "editorConfigs": {
+                        "sideBar": {
+                          "group": "base"
+                        }
+                      }
+                    },
+                    {
+                      "uid": "7nenwr4",
+                      "tag": "Button",
+                      "label": "Button",
+                      "settings": {
+                        "label": "Button",
+                        "htmlType": "button",
+                        "href": "",
+                        "target": "_self",
+                        "disabled": false,
+                        "iconSvg": "",
+                        "type": "primary",
+                        "size": {
+                          "desktop": "medium"
+                        },
+                        "rounded": "sm",
+                        "shadow": true,
+                        "block": {
+                          "desktop": false
+                        },
+                        "align": {
+                          "desktop": "left",
+                          "tablet": "left",
+                          "mobile": "left"
+                        }
+                      },
+                      "editorConfigs": {
+                        "slots": {
+                          "children": false
+                        },
+                        "sideBar": {
+                          "group": "base"
+                        }
+                      }
+                    }
+                  ],
+                  "uid": "chj5w22",
+                  "label": "Col",
+                  "settings": {},
+                  "editorConfigs": {
+                    "placeholder": {
+                      "notAppend": true
+                    },
+                    "toolbar": {
+                      "parent": true
+                    },
+                    "sideBar": {
+                      "hide": true,
+                      "group": "layout"
+                    }
+                  }
+                }
+              ],
+              "editorConfigs": {
+                "slots": {
+                  "children": true
+                },
+                "toolbar": {
+                  "parent": true
+                },
+                "sideBar": {
+                  "group": "layout"
+                }
+              }
+            }
+          ],
+          "editorConfigs": {
+            "placeholder": {
+              "notAppend": true
+            },
+            "toolbar": {
+              "parent": true
+            },
+            "sideBar": {
+              "hide": true,
+              "group": "layout"
+            }
+          }
+        }
+      ],
+      "editorConfigs": {
+        "slots": {
+          "children": true
+        },
+        "toolbar": {
+          "parent": true
+        },
+        "sideBar": {
+          "group": "layout"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "uid": "ROOT",
+  "tag": "Root",
+  "label": "Root",
+  "childrens": [
+    {
+      "uid": "21kki6e",
+      "tag": "Section",
+      "label": "Section",
+      "settings": {
+        "fullWidth": true
+      },
+      "childrens": [
+        {
+          "uid": "r2cuc9w",
+          "tag": "CartList",
+          "label": "CartList",
+          "settings": {
+            "itemPerPage": 20,
+            "flex": {
+              "desktop": {
+                "wrap": "nowrap",
+                "justifyContent": "flex-start",
+                "alignItem": "stretch",
+                "direction": "column"
+              }
+            },
+            "fullHeight": false,
+            "fullWidth": false,
+            "order": {
+              "desktop": 0
+            }
+          },
+          "childrens": [
+            {
+              "tag": "Row",
+              "settings": {
+                "responsive": {
+                  "desktop": "100px 1fr 200px 160px 50px"
+                },
+                "fullHeight": false,
+                "fullWidth": false,
+                "horizontalGutter": {
+                  "desktop": "16px"
+                },
+                "verticalGutter": {
+                  "desktop": "16px"
+                }
+              },
+              "childrens": [
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "tag": "CartLineImage",
+                      "settings": {
+                        "hasAspectRatio": true,
+                        "aspectRatio": {
+                          "desktop": 1.4
+                        },
+                        "imgWidth": {
+                          "desktop": "100px"
+                        },
+                        "layout": {
+                          "desktop": "cover"
+                        },
+                        "hoverEffect": "zoom",
+                        "imgHeight": {
+                          "desktop": "auto",
+                          "tablet": "auto",
+                          "mobile": "auto"
+                        },
+                        "borderRadius": {
+                          "desktop": "0px",
+                          "tablet": "0px",
+                          "mobile": "0px"
+                        },
+                        "align": {
+                          "desktop": "left",
+                          "tablet": "left",
+                          "mobile": "left"
+                        }
+                      },
+                      "uid": "gyz9gyi",
+                      "label": "Cart Line Image",
+                      "childrens": []
+                    }
+                  ],
+                  "settings": {
+                    "justifyContent": {
+                      "desktop": "center"
+                    },
+                    "alignItem": {
+                      "desktop": "flex-start"
+                    },
+                    "flex": {
+                      "desktop": {
+                        "wrap": "nowrap",
+                        "justifyContent": "flex-start",
+                        "alignItem": "stretch",
+                        "direction": "column"
+                      }
+                    },
+                    "fullHeight": false,
+                    "fullWidth": false,
+                    "order": {
+                      "desktop": 0
+                    }
+                  },
+                  "uid": "1b16exu",
+                  "label": "Col"
+                },
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "tag": "CartLineVariant",
+                      "settings": {
+                        "typographyType": "heading",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "fontWeight": {
+                          "desktop": "normal"
+                        },
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "fj8gn3u",
+                      "label": "CartLine Variant"
+                    }
+                  ],
+                  "settings": {
+                    "justifyContent": {
+                      "desktop": "center"
+                    },
+                    "alignItem": {
+                      "desktop": "flex-start"
+                    },
+                    "flex": {
+                      "desktop": {
+                        "wrap": "nowrap",
+                        "justifyContent": "flex-start",
+                        "alignItem": "stretch",
+                        "direction": "column"
+                      }
+                    },
+                    "fullHeight": false,
+                    "fullWidth": false,
+                    "order": {
+                      "desktop": 0
+                    }
+                  },
+                  "uid": "vybaczh",
+                  "label": "Col"
+                },
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "tag": "CartLineItemQuantity",
+                      "uid": "z6zz1qg",
+                      "label": "CartLine Item Quantity",
+                      "settings": {},
+                      "childrens": []
+                    }
+                  ],
+                  "settings": {
+                    "justifyContent": {
+                      "desktop": "center"
+                    },
+                    "alignItem": {
+                      "desktop": "center"
+                    },
+                    "flex": {
+                      "desktop": {
+                        "wrap": "nowrap",
+                        "justifyContent": "flex-start",
+                        "alignItem": "stretch",
+                        "direction": "column"
+                      }
+                    },
+                    "fullHeight": false,
+                    "fullWidth": false,
+                    "order": {
+                      "desktop": 0
+                    }
+                  },
+                  "uid": "ne61urn",
+                  "label": "Col"
+                },
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "tag": "CartLinePrice",
+                      "settings": {
+                        "typographyType": "heading-small",
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 1
+                        },
+                        "fontWeight": {
+                          "desktop": 300
+                        },
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "fontStyle": "normal",
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "right"
+                        }
+                      },
+                      "uid": "mbsidvk",
+                      "label": "CartLine Price",
+                      "childrens": []
+                    },
+                    {
+                      "tag": "CartLinePrice",
+                      "settings": {
+                        "typographyType": "sub-heading",
+                        "priceType": "compare",
+                        "color": "#999999",
+                        "fontWeight": {
+                          "desktop": 300
+                        },
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "right"
+                        }
+                      },
+                      "uid": "4l0epw7",
+                      "label": "CartLine Price",
+                      "childrens": []
+                    }
+                  ],
+                  "settings": {
+                    "justifyContent": {
+                      "desktop": "center"
+                    },
+                    "alignItem": {
+                      "desktop": "flex-end"
+                    },
+                    "gap": {
+                      "desktop": "0px"
+                    },
+                    "flex": {
+                      "desktop": {
+                        "wrap": "nowrap",
+                        "justifyContent": "flex-start",
+                        "alignItem": "stretch",
+                        "direction": "column"
+                      }
+                    },
+                    "fullHeight": false,
+                    "fullWidth": false,
+                    "order": {
+                      "desktop": 0
+                    }
+                  },
+                  "uid": "5nlop9z",
+                  "label": "Col"
+                },
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "tag": "CartLineQuantityAdjustButton",
+                      "settings": {
+                        "adjust": "remove"
+                      },
+                      "childrens": [
+                        {
+                          "tag": "Icon",
+                          "settings": {
+                            "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\" />\n            </svg>",
+                            "align": {
+                              "desktop": "center"
+                            },
+                            "iconWidth": 24,
+                            "iconHeight": 24,
+                            "spin": false,
+                            "iconRotate": 0
+                          },
+                          "uid": "4wuhl2c",
+                          "label": "Icon",
+                          "childrens": []
+                        }
+                      ],
+                      "uid": "1qcy18c",
+                      "label": "CartLine Quantity Adjust Button"
+                    }
+                  ],
+                  "settings": {
+                    "alignItem": {
+                      "desktop": "center"
+                    },
+                    "justifyContent": {
+                      "desktop": "center"
+                    },
+                    "flex": {
+                      "desktop": {
+                        "wrap": "nowrap",
+                        "justifyContent": "flex-start",
+                        "alignItem": "stretch",
+                        "direction": "column"
+                      }
+                    },
+                    "fullHeight": false,
+                    "fullWidth": false,
+                    "order": {
+                      "desktop": 0
+                    }
+                  },
+                  "uid": "9pab5oa",
+                  "label": "Col"
+                }
+              ],
+              "uid": "m4kt2kv",
+              "label": "Row"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

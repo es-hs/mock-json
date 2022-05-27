@@ -1,0 +1,865 @@
+{
+  "uid": "ROOT",
+  "tag": "Root",
+  "childrens": [
+    {
+      "uid": "et2eli9",
+      "tag": "Row",
+      "label": "Row",
+      "settings": {
+        "responsive": {
+          "desktop": "repeat(1, minmax(0, 1fr))"
+        }
+      },
+      "childrens": [
+        {
+          "uid": "byt8r2z",
+          "tag": "Col",
+          "label": "Col",
+          "settings": {},
+          "childrens": [
+            {
+              "tag": "Row",
+              "settings": {
+                "responsive": {
+                  "desktop": "repeat(2, minmax(0, 1fr))",
+                  "tablet": "100%",
+                  "mobile": "100%"
+                },
+                "fullWidth": false,
+                "horizontalGutter": {
+                  "desktop": "40px",
+                  "mobile": "20px"
+                },
+                "verticalGutter": {
+                  "desktop": "40px"
+                },
+                "fullHeight": false
+              },
+              "childrens": [
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "tag": "ProductVariantSlider",
+                      "settings": {
+                        "hasAspectRatio": true,
+                        "aspectRatio": {
+                          "desktop": 1
+                        },
+                        "layout": {
+                          "desktop": "cover",
+                          "tablet": "cover",
+                          "mobile": "cover"
+                        },
+                        "imgWidth": {
+                          "desktop": "100%",
+                          "tablet": "100%",
+                          "mobile": "100%"
+                        },
+                        "imgHeight": {
+                          "desktop": "auto",
+                          "tablet": "auto",
+                          "mobile": "auto"
+                        },
+                        "borderRadius": {
+                          "desktop": "0px",
+                          "tablet": "0px",
+                          "mobile": "0px"
+                        },
+                        "align": {
+                          "desktop": "left",
+                          "tablet": "left",
+                          "mobile": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "4ok2wt2",
+                      "label": "ProductVariantSlider",
+                      "editorConfigs": {
+                        "placeholder": {
+                          "flowTag": "Product"
+                        },
+                        "sideBar": {
+                          "group": "Product"
+                        }
+                      }
+                    }
+                  ],
+                  "settings": {
+                    "fullHeight": false,
+                    "fullWidth": false,
+                    "flex": {
+                      "desktop": "default"
+                    },
+                    "flexBox": false,
+                    "flexDirection": {
+                      "desktop": "row"
+                    },
+                    "flexWrap": {
+                      "desktop": "nowrap"
+                    },
+                    "justifyContent": {
+                      "desktop": "flex-start"
+                    },
+                    "alignItem": {
+                      "desktop": "stretch"
+                    },
+                    "gap": {
+                      "desktop": "16px"
+                    },
+                    "order": {
+                      "desktop": 0
+                    }
+                  },
+                  "uid": "b8fo4qu",
+                  "label": "Col",
+                  "editorConfigs": {
+                    "placeholder": {
+                      "notAppend": true
+                    },
+                    "toolbar": {
+                      "parent": true
+                    },
+                    "sideBar": {
+                      "hide": true,
+                      "group": "layout"
+                    }
+                  }
+                },
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "tag": "ProductTitle",
+                      "settings": {
+                        "htmlTag": "h1",
+                        "typographyType": "heading-small",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "fontWeight": {
+                          "desktop": "normal"
+                        },
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "sbdqknh",
+                      "label": "Product Title",
+                      "editorConfigs": {
+                        "placeholder": {
+                          "flowTag": "Product"
+                        },
+                        "sideBar": {
+                          "group": "Product"
+                        }
+                      }
+                    },
+                    {
+                      "tag": "Row",
+                      "settings": {
+                        "responsive": {
+                          "desktop": "minmax(max-content, auto) 1fr"
+                        },
+                        "fullWidth": true,
+                        "horizontalGutter": {
+                          "desktop": "16px"
+                        },
+                        "verticalGutter": {
+                          "desktop": "16px"
+                        },
+                        "fullHeight": false
+                      },
+                      "childrens": [
+                        {
+                          "tag": "Col",
+                          "settings": {
+                            "flex": {
+                              "desktop": {
+                                "justify": "flex-end",
+                                "justifyContent": "flex-end",
+                                "direction": "column",
+                                "wrap": "nowrap",
+                                "alignItem": "stretch"
+                              }
+                            },
+                            "fullHeight": false,
+                            "fullWidth": false,
+                            "order": {
+                              "desktop": 0
+                            }
+                          },
+                          "childrens": [
+                            {
+                              "tag": "ProductPrice",
+                              "settings": {
+                                "priceType": "regular",
+                                "typographyType": "heading",
+                                "fontWeight": {
+                                  "desktop": 400
+                                },
+                                "fontSize": {
+                                  "desktop": "16px"
+                                },
+                                "lineHeight": {
+                                  "desktop": "120%"
+                                },
+                                "hasLineClamp": false,
+                                "lineClamp": {
+                                  "desktop": 0
+                                },
+                                "fontStyle": "normal",
+                                "letterSpacing": {
+                                  "desktop": "0px"
+                                },
+                                "color": "#111111",
+                                "fontFamily": "inherit",
+                                "textAlign": {
+                                  "desktop": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "m86d9tb",
+                              "label": "Product Price",
+                              "editorConfigs": {
+                                "placeholder": {
+                                  "flowTag": "Product"
+                                },
+                                "sideBar": {
+                                  "group": "Product"
+                                }
+                              }
+                            }
+                          ],
+                          "uid": "i4cbuhn",
+                          "label": "Col",
+                          "editorConfigs": {
+                            "placeholder": {
+                              "notAppend": true
+                            },
+                            "toolbar": {
+                              "parent": true
+                            },
+                            "sideBar": {
+                              "hide": true,
+                              "group": "layout"
+                            }
+                          }
+                        },
+                        {
+                          "tag": "Col",
+                          "settings": {
+                            "flex": {
+                              "desktop": {
+                                "justify": "flex-end",
+                                "justifyContent": "flex-end",
+                                "direction": "column",
+                                "wrap": "nowrap",
+                                "alignItem": "stretch"
+                              }
+                            },
+                            "fullHeight": false,
+                            "fullWidth": false,
+                            "order": {
+                              "desktop": 0
+                            }
+                          },
+                          "childrens": [
+                            {
+                              "tag": "ProductPrice",
+                              "settings": {
+                                "priceType": "compare",
+                                "typographyType": "sub-heading",
+                                "fontWeight": {
+                                  "desktop": 300
+                                },
+                                "fontSize": {
+                                  "desktop": "16px"
+                                },
+                                "lineHeight": {
+                                  "desktop": "120%"
+                                },
+                                "hasLineClamp": false,
+                                "lineClamp": {
+                                  "desktop": 0
+                                },
+                                "fontStyle": "normal",
+                                "letterSpacing": {
+                                  "desktop": "0px"
+                                },
+                                "color": "#999999",
+                                "fontFamily": "inherit",
+                                "textAlign": {
+                                  "desktop": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "imcwaq8",
+                              "label": "Product Price",
+                              "editorConfigs": {
+                                "placeholder": {
+                                  "flowTag": "Product"
+                                },
+                                "sideBar": {
+                                  "group": "Product"
+                                }
+                              }
+                            }
+                          ],
+                          "uid": "21hc80z",
+                          "label": "Col",
+                          "editorConfigs": {
+                            "placeholder": {
+                              "notAppend": true
+                            },
+                            "toolbar": {
+                              "parent": true
+                            },
+                            "sideBar": {
+                              "hide": true,
+                              "group": "layout"
+                            }
+                          }
+                        }
+                      ],
+                      "uid": "7palmsq",
+                      "label": "Row",
+                      "editorConfigs": {
+                        "slots": {
+                          "children": true
+                        },
+                        "toolbar": {
+                          "parent": true
+                        },
+                        "sideBar": {
+                          "group": "layout"
+                        }
+                      }
+                    },
+                    {
+                      "tag": "Row",
+                      "settings": {
+                        "responsive": {
+                          "desktop": "20px minmax(0, 24fr)"
+                        },
+                        "fullWidth": true,
+                        "horizontalGutter": {
+                          "desktop": "16px"
+                        },
+                        "verticalGutter": {
+                          "desktop": "16px"
+                        },
+                        "fullHeight": false
+                      },
+                      "childrens": [
+                        {
+                          "tag": "Col",
+                          "childrens": [
+                            {
+                              "tag": "Icon",
+                              "settings": {
+                                "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-truck\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>",
+                                "iconWidth": 24,
+                                "iconHeight": 24,
+                                "spin": false,
+                                "iconRotate": 0,
+                                "align": {
+                                  "desktop": "left",
+                                  "tablet": "left",
+                                  "mobile": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "a9ylo27",
+                              "label": "Icon",
+                              "editorConfigs": {
+                                "sideBar": {
+                                  "group": "base"
+                                }
+                              }
+                            }
+                          ],
+                          "uid": "p4ffr6g",
+                          "label": "Col",
+                          "settings": {},
+                          "editorConfigs": {
+                            "placeholder": {
+                              "notAppend": true
+                            },
+                            "toolbar": {
+                              "parent": true
+                            },
+                            "sideBar": {
+                              "hide": true,
+                              "group": "layout"
+                            }
+                          }
+                        },
+                        {
+                          "tag": "Col",
+                          "childrens": [
+                            {
+                              "tag": "Text",
+                              "settings": {
+                                "text": "Delivery between Oct 2 and Oct 4",
+                                "fontWeight": {
+                                  "desktop": 600
+                                },
+                                "htmlTag": "p",
+                                "typographyType": "paragraph",
+                                "fontSize": {
+                                  "desktop": "16px"
+                                },
+                                "lineHeight": {
+                                  "desktop": "120%"
+                                },
+                                "hasLineClamp": false,
+                                "lineClamp": {
+                                  "desktop": 0
+                                },
+                                "fontStyle": "normal",
+                                "letterSpacing": {
+                                  "desktop": "0px"
+                                },
+                                "color": "#111111",
+                                "fontFamily": "inherit",
+                                "textAlign": {
+                                  "desktop": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "an76h0d",
+                              "label": "Text",
+                              "editorConfigs": {
+                                "sideBar": {
+                                  "group": "base"
+                                }
+                              }
+                            }
+                          ],
+                          "uid": "p7ou948",
+                          "label": "Col",
+                          "settings": {},
+                          "editorConfigs": {
+                            "placeholder": {
+                              "notAppend": true
+                            },
+                            "toolbar": {
+                              "parent": true
+                            },
+                            "sideBar": {
+                              "hide": true,
+                              "group": "layout"
+                            }
+                          }
+                        }
+                      ],
+                      "uid": "l465l3e",
+                      "label": "Row",
+                      "editorConfigs": {
+                        "slots": {
+                          "children": true
+                        },
+                        "toolbar": {
+                          "parent": true
+                        },
+                        "sideBar": {
+                          "group": "layout"
+                        }
+                      }
+                    },
+                    {
+                      "tag": "Row",
+                      "settings": {
+                        "responsive": {
+                          "desktop": "20px minmax(0, 24fr)"
+                        },
+                        "fullWidth": true,
+                        "horizontalGutter": {
+                          "desktop": "16px"
+                        },
+                        "verticalGutter": {
+                          "desktop": "16px"
+                        },
+                        "fullHeight": false
+                      },
+                      "childrens": [
+                        {
+                          "tag": "Col",
+                          "childrens": [
+                            {
+                              "tag": "Icon",
+                              "settings": {
+                                "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z\" />\n            </svg>",
+                                "iconWidth": 24,
+                                "iconHeight": 24,
+                                "spin": false,
+                                "iconRotate": 0,
+                                "align": {
+                                  "desktop": "left",
+                                  "tablet": "left",
+                                  "mobile": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "cfo9fi3",
+                              "label": "Icon",
+                              "editorConfigs": {
+                                "sideBar": {
+                                  "group": "base"
+                                }
+                              }
+                            }
+                          ],
+                          "uid": "lc6fbx4",
+                          "label": "Col",
+                          "settings": {},
+                          "editorConfigs": {
+                            "placeholder": {
+                              "notAppend": true
+                            },
+                            "toolbar": {
+                              "parent": true
+                            },
+                            "sideBar": {
+                              "hide": true,
+                              "group": "layout"
+                            }
+                          }
+                        },
+                        {
+                          "tag": "Col",
+                          "childrens": [
+                            {
+                              "tag": "Text",
+                              "settings": {
+                                "text": "60-day Money Back Guarantee",
+                                "fontWeight": {
+                                  "desktop": 600
+                                },
+                                "htmlTag": "p",
+                                "typographyType": "paragraph",
+                                "fontSize": {
+                                  "desktop": "16px"
+                                },
+                                "lineHeight": {
+                                  "desktop": "120%"
+                                },
+                                "hasLineClamp": false,
+                                "lineClamp": {
+                                  "desktop": 0
+                                },
+                                "fontStyle": "normal",
+                                "letterSpacing": {
+                                  "desktop": "0px"
+                                },
+                                "color": "#111111",
+                                "fontFamily": "inherit",
+                                "textAlign": {
+                                  "desktop": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "a4vck5s",
+                              "label": "Text",
+                              "editorConfigs": {
+                                "sideBar": {
+                                  "group": "base"
+                                }
+                              }
+                            }
+                          ],
+                          "uid": "11qo4g6",
+                          "label": "Col",
+                          "settings": {},
+                          "editorConfigs": {
+                            "placeholder": {
+                              "notAppend": true
+                            },
+                            "toolbar": {
+                              "parent": true
+                            },
+                            "sideBar": {
+                              "hide": true,
+                              "group": "layout"
+                            }
+                          }
+                        }
+                      ],
+                      "uid": "jqwlubh",
+                      "label": "Row",
+                      "editorConfigs": {
+                        "slots": {
+                          "children": true
+                        },
+                        "toolbar": {
+                          "parent": true
+                        },
+                        "sideBar": {
+                          "group": "layout"
+                        }
+                      }
+                    },
+                    {
+                      "tag": "ProductDescription",
+                      "settings": {
+                        "color": "#595959",
+                        "htmlTag": "p",
+                        "typographyType": "paragraph",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "fontWeight": {
+                          "desktop": "normal"
+                        },
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "zu9ajnd",
+                      "label": "Product Description",
+                      "editorConfigs": {
+                        "placeholder": {
+                          "flowTag": "Product"
+                        },
+                        "sideBar": {
+                          "group": "Product"
+                        }
+                      }
+                    },
+                    {
+                      "tag": "ProductSwatches",
+                      "settings": {
+                        "fontWeight": {
+                          "desktop": 600
+                        },
+                        "typographyType": "sub-heading",
+                        "rounded": "sm",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "nje9h62",
+                      "label": "Product Swatches",
+                      "editorConfigs": {
+                        "placeholder": {
+                          "flowTag": "Product"
+                        },
+                        "sideBar": {
+                          "group": "Product"
+                        }
+                      }
+                    },
+                    {
+                      "tag": "Text",
+                      "settings": {
+                        "text": "Quantity",
+                        "fontWeight": {
+                          "desktop": 600
+                        },
+                        "typographyType": "sub-heading",
+                        "htmlTag": "p",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "7ast0x4",
+                      "label": "Text",
+                      "editorConfigs": {
+                        "sideBar": {
+                          "group": "base"
+                        }
+                      }
+                    },
+                    {
+                      "tag": "ProductQuantity",
+                      "settings": {
+                        "size": {
+                          "desktop": "small"
+                        },
+                        "rounded": "sm"
+                      },
+                      "childrens": [],
+                      "uid": "ocerbgj",
+                      "label": "Product Quantity",
+                      "editorConfigs": {
+                        "placeholder": {
+                          "flowTag": "Product"
+                        },
+                        "sideBar": {
+                          "group": "Product"
+                        }
+                      }
+                    },
+                    {
+                      "tag": "AddToCart",
+                      "settings": {
+                        "label": "Add to cart",
+                        "outOfStockLabel": "Out of stock",
+                        "block": {
+                          "desktop": true
+                        },
+                        "align": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "8rwswgq",
+                      "label": "Add To Cart",
+                      "editorConfigs": {
+                        "placeholder": {
+                          "flowTag": "Product"
+                        },
+                        "sideBar": {
+                          "group": "Product"
+                        }
+                      }
+                    }
+                  ],
+                  "settings": {
+                    "fullHeight": false,
+                    "fullWidth": false,
+                    "flex": {
+                      "desktop": "default"
+                    },
+                    "flexBox": false,
+                    "flexDirection": {
+                      "desktop": "row"
+                    },
+                    "flexWrap": {
+                      "desktop": "nowrap"
+                    },
+                    "justifyContent": {
+                      "desktop": "flex-start"
+                    },
+                    "alignItem": {
+                      "desktop": "stretch"
+                    },
+                    "gap": {
+                      "desktop": "16px"
+                    },
+                    "order": {
+                      "desktop": 0
+                    }
+                  },
+                  "uid": "h8x2moo",
+                  "label": "Col",
+                  "editorConfigs": {
+                    "placeholder": {
+                      "notAppend": true
+                    },
+                    "toolbar": {
+                      "parent": true
+                    },
+                    "sideBar": {
+                      "hide": true,
+                      "group": "layout"
+                    }
+                  }
+                }
+              ],
+              "uid": "t0y3sms",
+              "label": "Row",
+              "editorConfigs": {
+                "slots": {
+                  "children": true
+                },
+                "toolbar": {
+                  "parent": true
+                },
+                "sideBar": {
+                  "group": "layout"
+                }
+              }
+            }
+          ],
+          "editorConfigs": {
+            "placeholder": {
+              "notAppend": true
+            },
+            "toolbar": {
+              "parent": true
+            },
+            "sideBar": {
+              "hide": true,
+              "group": "layout"
+            }
+          }
+        }
+      ],
+      "editorConfigs": {
+        "slots": {
+          "children": true
+        },
+        "toolbar": {
+          "parent": true
+        },
+        "sideBar": {
+          "group": "layout"
+        }
+      }
+    }
+  ]
+}
