@@ -1,0 +1,35 @@
+{
+  "$ref": "#/definitions/Builder",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Builder": {
+      "properties": {
+        "childrens": {
+          "items": {
+            "$ref": "#/definitions/Builder"
+          },
+          "type": "array"
+        },
+        "label": {
+          "type": "string"
+        },
+        "settings": {
+          "additionalProperties": {},
+          "type": "object"
+        },
+        "tag": {
+          "type": "string"
+        },
+        "type": {
+          "enum": ["component", "section"],
+          "type": "string"
+        },
+        "uid": {
+          "type": "string"
+        }
+      },
+      "required": ["tag", "uid"],
+      "type": "object"
+    }
+  }
+}

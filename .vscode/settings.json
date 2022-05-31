@@ -1,0 +1,22 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/template/seo.json"],
+      "url": "/schemas/seo.json"
+    },
+    {
+      "fileMatch": ["/template/style.json"],
+      "url": "/schemas/style.json"
+    },
+    {
+      "fileMatch": [
+        "/template/header.json",
+        "/template/footer.json",
+        "/template/builder.json",
+        "/template/section-01.json",
+        "/template/section-02.json"
+      ],
+      "url": "/schemas/builder.json"
+    }
+  ]
+}

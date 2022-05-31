@@ -1,0 +1,445 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "AdditionalRobotsProps": {
+      "properties": {
+        "maxImagePreview": {
+          "$ref": "#/definitions/ImagePrevSize"
+        },
+        "maxSnippet": {
+          "type": "number"
+        },
+        "maxVideoPreview": {
+          "type": "number"
+        },
+        "noarchive": {
+          "type": "boolean"
+        },
+        "noimageindex": {
+          "type": "boolean"
+        },
+        "nosnippet": {
+          "type": "boolean"
+        },
+        "notranslate": {
+          "type": "boolean"
+        },
+        "unavailableAfter": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "HTML5MetaTag": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "httpEquiv": {
+          "type": "undefined"
+        },
+        "keyOverride": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "property": {
+          "type": "undefined"
+        }
+      },
+      "required": ["content", "name"],
+      "type": "object"
+    },
+    "HTTPEquivMetaTag": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "httpEquiv": {
+          "enum": [
+            "content-security-policy",
+            "content-type",
+            "default-style",
+            "refresh",
+            "x-ua-compatible"
+          ],
+          "type": "string"
+        },
+        "keyOverride": {
+          "type": "string"
+        },
+        "name": {
+          "type": "undefined"
+        },
+        "property": {
+          "type": "undefined"
+        }
+      },
+      "required": ["content", "httpEquiv"],
+      "type": "object"
+    },
+    "ImagePrevSize": {
+      "enum": ["large", "none", "standard"],
+      "type": "string"
+    },
+    "LanguageAlternate": {
+      "properties": {
+        "href": {
+          "type": "string"
+        },
+        "hrefLang": {
+          "type": "string"
+        }
+      },
+      "required": ["href", "hrefLang"],
+      "type": "object"
+    },
+    "LinkTag": {
+      "properties": {
+        "as": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "crossOrigin": {
+          "type": "string"
+        },
+        "href": {
+          "type": "string"
+        },
+        "keyOverride": {
+          "type": "string"
+        },
+        "rel": {
+          "type": "string"
+        },
+        "sizes": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": ["href", "rel"],
+      "type": "object"
+    },
+    "MobileAlternate": {
+      "properties": {
+        "href": {
+          "type": "string"
+        },
+        "media": {
+          "type": "string"
+        }
+      },
+      "required": ["href", "media"],
+      "type": "object"
+    },
+    "OpenGraph": {
+      "properties": {
+        "article": {
+          "$ref": "#/definitions/OpenGraphArticle"
+        },
+        "book": {
+          "$ref": "#/definitions/OpenGraphBook"
+        },
+        "defaultImageHeight": {
+          "type": "number"
+        },
+        "defaultImageWidth": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        },
+        "images": {
+          "items": {
+            "$ref": "#/definitions/OpenGraphMedia"
+          },
+          "type": "array"
+        },
+        "locale": {
+          "type": "string"
+        },
+        "profile": {
+          "$ref": "#/definitions/OpenGraphProfile"
+        },
+        "site_name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "video": {
+          "$ref": "#/definitions/OpenGraphVideo"
+        },
+        "videos": {
+          "items": {
+            "$ref": "#/definitions/OpenGraphMedia"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "OpenGraphArticle": {
+      "properties": {
+        "authors": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "expirationTime": {
+          "type": "string"
+        },
+        "modifiedTime": {
+          "type": "string"
+        },
+        "publishedTime": {
+          "type": "string"
+        },
+        "section": {
+          "type": "string"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "OpenGraphBook": {
+      "properties": {
+        "authors": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "isbn": {
+          "type": "string"
+        },
+        "releaseDate": {
+          "type": "string"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "OpenGraphMedia": {
+      "properties": {
+        "alt": {
+          "type": "string"
+        },
+        "height": {
+          "type": "number"
+        },
+        "secureUrl": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "width": {
+          "type": "number"
+        }
+      },
+      "required": ["url"],
+      "type": "object"
+    },
+    "OpenGraphProfile": {
+      "properties": {
+        "firstName": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "username": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "OpenGraphVideo": {
+      "properties": {
+        "actors": {
+          "items": {
+            "$ref": "#/definitions/OpenGraphVideoActors"
+          },
+          "type": "array"
+        },
+        "directors": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "duration": {
+          "type": "number"
+        },
+        "releaseDate": {
+          "type": "string"
+        },
+        "series": {
+          "type": "string"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "writers": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "OpenGraphVideoActors": {
+      "properties": {
+        "profile": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        }
+      },
+      "required": ["profile"],
+      "type": "object"
+    },
+    "RDFaMetaTag": {
+      "properties": {
+        "content": {
+          "type": "string"
+        },
+        "httpEquiv": {
+          "type": "undefined"
+        },
+        "keyOverride": {
+          "type": "string"
+        },
+        "name": {
+          "type": "undefined"
+        },
+        "property": {
+          "type": "string"
+        }
+      },
+      "required": ["content", "property"],
+      "type": "object"
+    },
+    "Twitter": {
+      "properties": {
+        "cardType": {
+          "type": "string"
+        },
+        "handle": {
+          "type": "string"
+        },
+        "site": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "properties": {
+    "additionalLinkTags": {
+      "items": {
+        "$ref": "#/definitions/LinkTag"
+      },
+      "type": "array"
+    },
+    "additionalMetaTags": {
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/HTML5MetaTag"
+          },
+          {
+            "$ref": "#/definitions/RDFaMetaTag"
+          },
+          {
+            "$ref": "#/definitions/HTTPEquivMetaTag"
+          }
+        ]
+      },
+      "type": "array"
+    },
+    "canonical": {
+      "type": "string"
+    },
+    "defaultTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "facebook": {
+      "properties": {
+        "appId": {
+          "type": "string"
+        }
+      },
+      "required": ["appId"],
+      "type": "object"
+    },
+    "languageAlternates": {
+      "items": {
+        "$ref": "#/definitions/LanguageAlternate"
+      },
+      "type": "array"
+    },
+    "mobileAlternate": {
+      "$ref": "#/definitions/MobileAlternate"
+    },
+    "nofollow": {
+      "type": "boolean"
+    },
+    "noindex": {
+      "type": "boolean"
+    },
+    "openGraph": {
+      "$ref": "#/definitions/OpenGraph"
+    },
+    "robotsProps": {
+      "$ref": "#/definitions/AdditionalRobotsProps"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleTemplate": {
+      "type": "string"
+    },
+    "twitter": {
+      "$ref": "#/definitions/Twitter"
+    }
+  },
+  "type": "object"
+}

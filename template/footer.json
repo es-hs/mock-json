@@ -1,0 +1,14 @@
+{
+  "uid": "ROOT",
+  "tag": "Root",
+  "childrens": [
+    {
+      "uid": "1",
+      "tag": "Image",
+      "settings": {
+        "src": "https://via.placeholder.com/120x60?text=Footer",
+        "alt": "Demo Image"
+      }
+    }
+  ]
+}

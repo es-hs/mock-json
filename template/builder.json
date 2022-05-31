@@ -1,0 +1,1035 @@
+{
+  "uid": "ROOT",
+  "tag": "Root",
+  "label": "Root",
+  "childrens": [
+    {
+      "uid": "4WAlR34apw",
+      "tag": "Section",
+      "label": "Section",
+      "settings": {
+        "fullWidth": false
+      },
+      "childrens": [
+        {
+          "uid": "EBMZLOR9uZ",
+          "tag": "Button",
+          "label": "Button",
+          "settings": {
+            "label": "Button",
+            "htmlType": "button",
+            "href": "",
+            "target": "_self",
+            "disabled": false,
+            "iconSvg": "",
+            "type": "primary",
+            "size": {
+              "desktop": "medium"
+            },
+            "rounded": "sm",
+            "shadow": true,
+            "block": {
+              "desktop": false
+            },
+            "align": {
+              "desktop": "left",
+              "tablet": "left",
+              "mobile": "left"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "uid": "rNItM5A7SU",
+      "tag": "Section",
+      "label": "Section",
+      "settings": {
+        "fullWidth": false
+      },
+      "childrens": [
+        {
+          "uid": "P14od9iSk3",
+          "tag": "Collection",
+          "label": "Collection",
+          "settings": {
+            "collectionId": "Latest",
+            "ssr": true,
+            "numberOfProducts": 4
+          },
+          "childrens": [
+            {
+              "tag": "Row",
+              "settings": {
+                "responsive": {
+                  "desktop": "repeat(1, minmax(0, 1fr))"
+                },
+                "fullHeight": false,
+                "fullWidth": false,
+                "horizontalGutter": {
+                  "desktop": "16px"
+                },
+                "verticalGutter": {
+                  "desktop": "16px"
+                }
+              },
+              "childrens": [
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "tag": "Link",
+                      "settings": {
+                        "type": "collection",
+                        "href": "#",
+                        "target": "_self"
+                      },
+                      "childrens": [
+                        {
+                          "tag": "CollectionTitle",
+                          "settings": {
+                            "typographyType": "heading-small",
+                            "textAlign": {
+                              "desktop": "center"
+                            },
+                            "fontSize": {
+                              "desktop": "16px"
+                            },
+                            "lineHeight": {
+                              "desktop": "120%"
+                            },
+                            "hasLineClamp": false,
+                            "lineClamp": {
+                              "desktop": 0
+                            },
+                            "fontStyle": "normal",
+                            "fontWeight": {
+                              "desktop": "normal"
+                            },
+                            "letterSpacing": {
+                              "desktop": "0px"
+                            },
+                            "color": "#111111",
+                            "fontFamily": "inherit"
+                          },
+                          "uid": "OBI6APeTYB",
+                          "label": "Collection Title",
+                          "childrens": []
+                        }
+                      ],
+                      "uid": "9_dV8UssxN",
+                      "label": "Link"
+                    },
+                    {
+                      "tag": "CollectionDescription",
+                      "settings": {
+                        "typographyType": "paragraph",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "fontWeight": {
+                          "desktop": "normal"
+                        },
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "uid": "vrh7K-5XRp",
+                      "label": "Collection Description",
+                      "childrens": []
+                    },
+                    {
+                      "tag": "ProductCollectionList",
+                      "settings": {
+                        "columns": {
+                          "desktop": 4,
+                          "tablet": 2,
+                          "mobile": 1
+                        },
+                        "horizontalGutter": {
+                          "desktop": "30px",
+                          "tablet": "30px",
+                          "mobile": "16px"
+                        },
+                        "verticalGutter": {
+                          "desktop": "30px",
+                          "tablet": "30px",
+                          "mobile": "16px"
+                        }
+                      },
+                      "childrens": [
+                        {
+                          "tag": "Box",
+                          "settings": {
+                            "fullHeight": true,
+                            "flex": {
+                              "desktop": {
+                                "wrap": "nowrap",
+                                "justifyContent": "flex-start",
+                                "alignItem": "stretch",
+                                "direction": "column"
+                              }
+                            },
+                            "fullWidth": false,
+                            "order": {
+                              "desktop": 0
+                            }
+                          },
+                          "childrens": [
+                            {
+                              "tag": "ProductFeatureImage",
+                              "uid": "KutWbPPA5g",
+                              "label": "Product Feature Image",
+                              "settings": {},
+                              "childrens": []
+                            },
+                            {
+                              "tag": "Box",
+                              "settings": {
+                                "flex": {
+                                  "desktop": {
+                                    "wrap": "nowrap",
+                                    "justifyContent": "space-between",
+                                    "alignItem": "stretch",
+                                    "direction": "column"
+                                  }
+                                },
+                                "fullHeight": true,
+                                "fullWidth": false,
+                                "order": {
+                                  "desktop": 0
+                                }
+                              },
+                              "childrens": [
+                                {
+                                  "tag": "Link",
+                                  "settings": {
+                                    "type": "product",
+                                    "href": "#",
+                                    "target": "_self"
+                                  },
+                                  "childrens": [
+                                    {
+                                      "tag": "ProductTitle",
+                                      "settings": {
+                                        "typographyType": "sub-heading",
+                                        "hasLineClamp": true,
+                                        "lineClamp": {
+                                          "desktop": 2,
+                                          "mobile": 0
+                                        },
+                                        "htmlTag": "h2",
+                                        "fontSize": {
+                                          "desktop": "16px"
+                                        },
+                                        "lineHeight": {
+                                          "desktop": "120%"
+                                        },
+                                        "fontStyle": "normal",
+                                        "fontWeight": {
+                                          "desktop": "normal"
+                                        },
+                                        "letterSpacing": {
+                                          "desktop": "0px"
+                                        },
+                                        "color": "#111111",
+                                        "fontFamily": "inherit",
+                                        "textAlign": {
+                                          "desktop": "left"
+                                        }
+                                      },
+                                      "uid": "7uNQOf6Nda",
+                                      "label": "Product Title",
+                                      "childrens": []
+                                    }
+                                  ],
+                                  "uid": "Bc-Of0Q1KW",
+                                  "label": "Link"
+                                },
+                                {
+                                  "tag": "Box",
+                                  "childrens": [
+                                    {
+                                      "tag": "Row",
+                                      "childrens": [
+                                        {
+                                          "tag": "Col",
+                                          "childrens": [
+                                            {
+                                              "tag": "Row",
+                                              "settings": {
+                                                "responsive": {
+                                                  "desktop": "repeat(2, minmax(0, 1fr))"
+                                                },
+                                                "fullHeight": false,
+                                                "fullWidth": false,
+                                                "horizontalGutter": {
+                                                  "desktop": "16px"
+                                                },
+                                                "verticalGutter": {
+                                                  "desktop": "16px"
+                                                }
+                                              },
+                                              "childrens": [
+                                                {
+                                                  "tag": "Col",
+                                                  "childrens": [
+                                                    {
+                                                      "tag": "ProductPrice",
+                                                      "settings": {
+                                                        "priceType": "regular",
+                                                        "typographyType": "heading",
+                                                        "fontSize": {
+                                                          "desktop": "16px"
+                                                        },
+                                                        "lineHeight": {
+                                                          "desktop": "120%"
+                                                        },
+                                                        "hasLineClamp": false,
+                                                        "lineClamp": {
+                                                          "desktop": 0
+                                                        },
+                                                        "fontStyle": "normal",
+                                                        "fontWeight": {
+                                                          "desktop": "normal"
+                                                        },
+                                                        "letterSpacing": {
+                                                          "desktop": "0px"
+                                                        },
+                                                        "color": "#111111",
+                                                        "fontFamily": "inherit",
+                                                        "textAlign": {
+                                                          "desktop": "left"
+                                                        }
+                                                      },
+                                                      "uid": "jHy2N4mpgb",
+                                                      "label": "Product Price",
+                                                      "childrens": []
+                                                    }
+                                                  ],
+                                                  "uid": "7wu7GYZ5n3",
+                                                  "label": "Col",
+                                                  "settings": {}
+                                                },
+                                                {
+                                                  "tag": "Col",
+                                                  "childrens": [
+                                                    {
+                                                      "tag": "ProductPrice",
+                                                      "settings": {
+                                                        "priceType": "compare",
+                                                        "typographyType": "heading",
+                                                        "fontSize": {
+                                                          "desktop": "16px"
+                                                        },
+                                                        "lineHeight": {
+                                                          "desktop": "120%"
+                                                        },
+                                                        "hasLineClamp": false,
+                                                        "lineClamp": {
+                                                          "desktop": 0
+                                                        },
+                                                        "fontStyle": "normal",
+                                                        "fontWeight": {
+                                                          "desktop": "normal"
+                                                        },
+                                                        "letterSpacing": {
+                                                          "desktop": "0px"
+                                                        },
+                                                        "color": "#111111",
+                                                        "fontFamily": "inherit",
+                                                        "textAlign": {
+                                                          "desktop": "left"
+                                                        }
+                                                      },
+                                                      "uid": "qwn2KmGgUF",
+                                                      "label": "Product Price",
+                                                      "childrens": []
+                                                    }
+                                                  ],
+                                                  "uid": "4itYDsIMqe",
+                                                  "label": "Col",
+                                                  "settings": {}
+                                                }
+                                              ],
+                                              "uid": "cj9CM5Wpc1",
+                                              "label": "Row"
+                                            },
+                                            {
+                                              "tag": "AddToCart",
+                                              "settings": {
+                                                "align": {
+                                                  "desktop": "center"
+                                                },
+                                                "label": "Add to cart",
+                                                "outOfStockLabel": "Out of stock",
+                                                "block": {
+                                                  "desktop": true
+                                                }
+                                              },
+                                              "uid": "vcbLRrzvsf",
+                                              "label": "Add To Cart",
+                                              "childrens": []
+                                            }
+                                          ],
+                                          "uid": "Zlq0TlsGwL",
+                                          "label": "Col",
+                                          "settings": {}
+                                        }
+                                      ],
+                                      "uid": "Zc3ev9tWqg",
+                                      "label": "Row",
+                                      "settings": {}
+                                    }
+                                  ],
+                                  "uid": "mRuurtxbTn",
+                                  "label": "Box",
+                                  "settings": {}
+                                }
+                              ],
+                              "uid": "VUB4Tarydq",
+                              "label": "Box"
+                            }
+                          ],
+                          "uid": "DzYXtvCL7g",
+                          "label": "Box"
+                        }
+                      ],
+                      "uid": "qKVSFUUbsd",
+                      "label": "Product Collection List"
+                    }
+                  ],
+                  "uid": "p9I_wj88Uw",
+                  "label": "Col",
+                  "settings": {}
+                }
+              ],
+              "uid": "TNP0jBIpwh",
+              "label": "Row"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "t6wo7qb",
+      "tag": "Section",
+      "label": "Section",
+      "settings": {
+        "fullWidth": false
+      },
+      "childrens": [
+        {
+          "uid": "34037um",
+          "tag": "Product",
+          "label": "Product",
+          "settings": {
+            "productId": "Latest"
+          },
+          "childrens": [
+            {
+              "tag": "Row",
+              "settings": {
+                "responsive": {
+                  "desktop": "repeat(2, minmax(0, 1fr))",
+                  "tablet": "100%",
+                  "mobile": "100%"
+                },
+                "fullWidth": false,
+                "horizontalGutter": {
+                  "desktop": "40px",
+                  "mobile": "20px"
+                },
+                "verticalGutter": {
+                  "desktop": "40px"
+                },
+                "fullHeight": false
+              },
+              "childrens": [
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "tag": "ProductVariantSlider",
+                      "settings": {
+                        "hasAspectRatio": true,
+                        "aspectRatio": {
+                          "desktop": 1
+                        },
+                        "layout": {
+                          "desktop": "cover",
+                          "tablet": "cover",
+                          "mobile": "cover"
+                        },
+                        "imgWidth": {
+                          "desktop": "100%",
+                          "tablet": "100%",
+                          "mobile": "100%"
+                        },
+                        "imgHeight": {
+                          "desktop": "auto",
+                          "tablet": "auto",
+                          "mobile": "auto"
+                        },
+                        "borderRadius": {
+                          "desktop": "0px",
+                          "tablet": "0px",
+                          "mobile": "0px"
+                        },
+                        "align": {
+                          "desktop": "left",
+                          "tablet": "left",
+                          "mobile": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "kaemgr1",
+                      "label": "ProductVariantSlider"
+                    }
+                  ],
+                  "settings": {
+                    "fullHeight": false,
+                    "fullWidth": false,
+                    "flex": {
+                      "desktop": "default"
+                    },
+                    "flexBox": false,
+                    "flexDirection": {
+                      "desktop": "row"
+                    },
+                    "flexWrap": {
+                      "desktop": "nowrap"
+                    },
+                    "justifyContent": {
+                      "desktop": "flex-start"
+                    },
+                    "alignItem": {
+                      "desktop": "stretch"
+                    },
+                    "gap": {
+                      "desktop": "16px"
+                    },
+                    "order": {
+                      "desktop": 0
+                    }
+                  },
+                  "uid": "1hgquyk",
+                  "label": "Col"
+                },
+                {
+                  "tag": "Col",
+                  "childrens": [
+                    {
+                      "tag": "ProductTitle",
+                      "settings": {
+                        "htmlTag": "h1",
+                        "typographyType": "heading-small",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "fontWeight": {
+                          "desktop": "normal"
+                        },
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "y3i34g3",
+                      "label": "Product Title"
+                    },
+                    {
+                      "tag": "Row",
+                      "settings": {
+                        "responsive": {
+                          "desktop": "minmax(max-content, auto) 1fr"
+                        },
+                        "fullWidth": true,
+                        "horizontalGutter": {
+                          "desktop": "16px"
+                        },
+                        "verticalGutter": {
+                          "desktop": "16px"
+                        },
+                        "fullHeight": false
+                      },
+                      "childrens": [
+                        {
+                          "tag": "Col",
+                          "settings": {
+                            "flex": {
+                              "desktop": {
+                                "justify": "flex-end",
+                                "justifyContent": "flex-end",
+                                "direction": "column",
+                                "wrap": "nowrap",
+                                "alignItem": "stretch"
+                              }
+                            },
+                            "fullHeight": false,
+                            "fullWidth": false,
+                            "order": {
+                              "desktop": 0
+                            }
+                          },
+                          "childrens": [
+                            {
+                              "tag": "ProductPrice",
+                              "settings": {
+                                "priceType": "regular",
+                                "typographyType": "heading",
+                                "fontWeight": {
+                                  "desktop": 400
+                                },
+                                "fontSize": {
+                                  "desktop": "16px"
+                                },
+                                "lineHeight": {
+                                  "desktop": "120%"
+                                },
+                                "hasLineClamp": false,
+                                "lineClamp": {
+                                  "desktop": 0
+                                },
+                                "fontStyle": "normal",
+                                "letterSpacing": {
+                                  "desktop": "0px"
+                                },
+                                "color": "#111111",
+                                "fontFamily": "inherit",
+                                "textAlign": {
+                                  "desktop": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "ebsxbd5",
+                              "label": "Product Price"
+                            }
+                          ],
+                          "uid": "4b2bqag",
+                          "label": "Col"
+                        },
+                        {
+                          "tag": "Col",
+                          "settings": {
+                            "flex": {
+                              "desktop": {
+                                "justify": "flex-end",
+                                "justifyContent": "flex-end",
+                                "direction": "column",
+                                "wrap": "nowrap",
+                                "alignItem": "stretch"
+                              }
+                            },
+                            "fullHeight": false,
+                            "fullWidth": false,
+                            "order": {
+                              "desktop": 0
+                            }
+                          },
+                          "childrens": [
+                            {
+                              "tag": "ProductPrice",
+                              "settings": {
+                                "priceType": "compare",
+                                "typographyType": "sub-heading",
+                                "fontWeight": {
+                                  "desktop": 300
+                                },
+                                "fontSize": {
+                                  "desktop": "16px"
+                                },
+                                "lineHeight": {
+                                  "desktop": "120%"
+                                },
+                                "hasLineClamp": false,
+                                "lineClamp": {
+                                  "desktop": 0
+                                },
+                                "fontStyle": "normal",
+                                "letterSpacing": {
+                                  "desktop": "2px"
+                                },
+                                "color": "#ff1000",
+                                "fontFamily": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif",
+                                "textAlign": {
+                                  "desktop": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "0ddaca5",
+                              "label": "Product Price"
+                            }
+                          ],
+                          "uid": "lm3uyih",
+                          "label": "Col"
+                        }
+                      ],
+                      "uid": "q6d63n9",
+                      "label": "Row"
+                    },
+                    {
+                      "tag": "Row",
+                      "settings": {
+                        "responsive": {
+                          "desktop": "20px minmax(0, 24fr)"
+                        },
+                        "fullWidth": true,
+                        "horizontalGutter": {
+                          "desktop": "16px"
+                        },
+                        "verticalGutter": {
+                          "desktop": "16px"
+                        },
+                        "fullHeight": false
+                      },
+                      "childrens": [
+                        {
+                          "tag": "Col",
+                          "childrens": [
+                            {
+                              "tag": "Icon",
+                              "settings": {
+                                "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-truck\"><rect x=\"1\" y=\"3\" width=\"15\" height=\"13\"></rect><polygon points=\"16 8 20 8 23 11 23 16 16 16 16 8\"></polygon><circle cx=\"5.5\" cy=\"18.5\" r=\"2.5\"></circle><circle cx=\"18.5\" cy=\"18.5\" r=\"2.5\"></circle></svg>",
+                                "iconWidth": 24,
+                                "iconHeight": 24,
+                                "spin": false,
+                                "iconRotate": 0,
+                                "align": {
+                                  "desktop": "left",
+                                  "tablet": "left",
+                                  "mobile": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "vedttl5",
+                              "label": "Icon"
+                            }
+                          ],
+                          "uid": "qdw8yer",
+                          "label": "Col",
+                          "settings": {}
+                        },
+                        {
+                          "tag": "Col",
+                          "childrens": [
+                            {
+                              "tag": "Text",
+                              "settings": {
+                                "text": "Delivery between Oct 2 and Oct 4",
+                                "fontWeight": {
+                                  "desktop": 600
+                                },
+                                "htmlTag": "p",
+                                "typographyType": "paragraph",
+                                "fontSize": {
+                                  "desktop": "16px"
+                                },
+                                "lineHeight": {
+                                  "desktop": "120%"
+                                },
+                                "hasLineClamp": false,
+                                "lineClamp": {
+                                  "desktop": 0
+                                },
+                                "fontStyle": "normal",
+                                "letterSpacing": {
+                                  "desktop": "0px"
+                                },
+                                "color": "#111111",
+                                "fontFamily": "inherit",
+                                "textAlign": {
+                                  "desktop": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "c76iun2",
+                              "label": "Text"
+                            }
+                          ],
+                          "uid": "welyd9x",
+                          "label": "Col",
+                          "settings": {}
+                        }
+                      ],
+                      "uid": "xfc18nt",
+                      "label": "Row"
+                    },
+                    {
+                      "tag": "Row",
+                      "settings": {
+                        "responsive": {
+                          "desktop": "20px minmax(0, 24fr)"
+                        },
+                        "fullWidth": true,
+                        "horizontalGutter": {
+                          "desktop": "16px"
+                        },
+                        "verticalGutter": {
+                          "desktop": "16px"
+                        },
+                        "fullHeight": false
+                      },
+                      "childrens": [
+                        {
+                          "tag": "Col",
+                          "childrens": [
+                            {
+                              "tag": "Icon",
+                              "settings": {
+                                "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-6 w-6\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2\">\n              <path stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 14l6-6m-5.5.5h.01m4.99 5h.01M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16l3.5-2 3.5 2 3.5-2 3.5 2zM10 8.5a.5.5 0 11-1 0 .5.5 0 011 0zm5 5a.5.5 0 11-1 0 .5.5 0 011 0z\" />\n            </svg>",
+                                "iconWidth": 24,
+                                "iconHeight": 24,
+                                "spin": false,
+                                "iconRotate": 0,
+                                "align": {
+                                  "desktop": "left",
+                                  "tablet": "left",
+                                  "mobile": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "e1fgdho",
+                              "label": "Icon"
+                            }
+                          ],
+                          "uid": "zrqppmv",
+                          "label": "Col",
+                          "settings": {}
+                        },
+                        {
+                          "tag": "Col",
+                          "childrens": [
+                            {
+                              "tag": "Text",
+                              "settings": {
+                                "text": "60-day Money Back Guarantee",
+                                "fontWeight": {
+                                  "desktop": 600
+                                },
+                                "htmlTag": "p",
+                                "typographyType": "paragraph",
+                                "fontSize": {
+                                  "desktop": "16px"
+                                },
+                                "lineHeight": {
+                                  "desktop": "120%"
+                                },
+                                "hasLineClamp": false,
+                                "lineClamp": {
+                                  "desktop": 0
+                                },
+                                "fontStyle": "normal",
+                                "letterSpacing": {
+                                  "desktop": "0px"
+                                },
+                                "color": "#111111",
+                                "fontFamily": "inherit",
+                                "textAlign": {
+                                  "desktop": "left"
+                                }
+                              },
+                              "childrens": [],
+                              "uid": "qwhc08u",
+                              "label": "Text"
+                            }
+                          ],
+                          "uid": "dzjemwz",
+                          "label": "Col",
+                          "settings": {}
+                        }
+                      ],
+                      "uid": "9doke06",
+                      "label": "Row"
+                    },
+                    {
+                      "tag": "ProductDescription",
+                      "settings": {
+                        "color": "#595959",
+                        "htmlTag": "p",
+                        "typographyType": "paragraph",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "fontWeight": {
+                          "desktop": "normal"
+                        },
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "lwpucid",
+                      "label": "Product Description"
+                    },
+                    {
+                      "tag": "ProductSwatches",
+                      "settings": {
+                        "fontWeight": {
+                          "desktop": 600
+                        },
+                        "typographyType": "sub-heading",
+                        "rounded": "sm",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "5h6pfne",
+                      "label": "Product Swatches"
+                    },
+                    {
+                      "tag": "Text",
+                      "settings": {
+                        "text": "Quantity",
+                        "fontWeight": {
+                          "desktop": 600
+                        },
+                        "typographyType": "sub-heading",
+                        "htmlTag": "p",
+                        "fontSize": {
+                          "desktop": "16px"
+                        },
+                        "lineHeight": {
+                          "desktop": "120%"
+                        },
+                        "hasLineClamp": false,
+                        "lineClamp": {
+                          "desktop": 0
+                        },
+                        "fontStyle": "normal",
+                        "letterSpacing": {
+                          "desktop": "0px"
+                        },
+                        "color": "#111111",
+                        "fontFamily": "inherit",
+                        "textAlign": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "hs9rgdt",
+                      "label": "Text"
+                    },
+                    {
+                      "tag": "ProductQuantity",
+                      "settings": {
+                        "size": {
+                          "desktop": "small"
+                        },
+                        "rounded": "sm"
+                      },
+                      "childrens": [],
+                      "uid": "2laktu3",
+                      "label": "Product Quantity"
+                    },
+                    {
+                      "tag": "AddToCart",
+                      "settings": {
+                        "label": "Add to cart",
+                        "outOfStockLabel": "Out of stock",
+                        "block": {
+                          "desktop": true
+                        },
+                        "align": {
+                          "desktop": "left"
+                        }
+                      },
+                      "childrens": [],
+                      "uid": "xv9450r",
+                      "label": "Add To Cart"
+                    }
+                  ],
+                  "settings": {
+                    "fullHeight": false,
+                    "fullWidth": false,
+                    "flex": {
+                      "desktop": "default"
+                    },
+                    "flexBox": false,
+                    "flexDirection": {
+                      "desktop": "row"
+                    },
+                    "flexWrap": {
+                      "desktop": "nowrap"
+                    },
+                    "justifyContent": {
+                      "desktop": "flex-start"
+                    },
+                    "alignItem": {
+                      "desktop": "stretch"
+                    },
+                    "gap": {
+                      "desktop": "16px"
+                    },
+                    "order": {
+                      "desktop": 0
+                    }
+                  },
+                  "uid": "dgzkvi6",
+                  "label": "Col"
+                }
+              ],
+              "uid": "l4ng2z1",
+              "label": "Row"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

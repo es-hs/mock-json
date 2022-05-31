@@ -1,0 +1,41 @@
+{
+  "uid": "section-02",
+  "tag": "Row",
+  "settings": {
+    "responsive": {
+      "desktop": "repeat(2, minmax(0, 1fr))",
+      "tablet": "100%",
+      "mobile": "100%"
+    }
+  },
+  "childrens": [
+    {
+      "uid": "1",
+      "tag": "Col",
+      "settings": {},
+      "childrens": [
+        {
+          "uid": "4",
+          "tag": "Button",
+          "settings": {
+            "label": "Button"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "2",
+      "tag": "Col",
+      "settings": {},
+      "childrens": [
+        {
+          "uid": "3",
+          "tag": "Button",
+          "settings": {
+            "label": "Button"
+          }
+        }
+      ]
+    }
+  ]
+}

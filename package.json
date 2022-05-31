@@ -1,0 +1,21 @@
+{
+  "name": "mock-json",
+  "version": "1.0.0",
+  "repository": "git@github.com:harryduong91/mock-json.git",
+  "author": "Harry Duong <harry.duong@gempages.help>",
+  "license": "MIT",
+  "scripts": {
+    "generate:seo": "typescript-json-schema node_modules/@gemui/seo/dist/types/index.d.ts NextSeoProps --required -o schemas/seo.json",
+    "generate:builder": "typescript-json-schema types/builder.ts Builder --required -o schemas/builder.json",
+    "generate:style": "typescript-json-schema types/style.ts Style --required -o schemas/style.json",
+    "generate": "yarn generate:seo && yarn generate:builder && yarn generate:style"
+  },
+  "devDependencies": {
+    "@gemui/seo": "^1.3.1",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.2",
+    "typescript-json-schema": "^0.53.1"
+  }
+}
