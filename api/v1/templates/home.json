@@ -16,7 +16,7 @@
           "tag": "Button",
           "label": "Button",
           "settings": {
-            "label": "Button",
+            "label": "Button 1",
             "htmlType": "button",
             "href": "",
             "target": "_self",
